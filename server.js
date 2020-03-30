@@ -44,7 +44,7 @@ http.createServer((req, res) => {
 		res.write('500 Internal Error');
 		res.end();
 	}
-}).listen(1337, () => console.log('Server is running on 1337'));
+}).listen(80, () => console.log('Server is running on 80'));
 
 
 
