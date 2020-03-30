@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-EXPOSE 1337
+EXPOSE 80
 CMD [ "node", "server.js" ]
 
 # sudo docker build -t vladimir/node-web-app .
